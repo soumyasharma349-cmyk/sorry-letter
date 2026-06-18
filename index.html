@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>A Letter From My Heart</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    overflow:hidden;
+    background:#fffaf8;
+}
+
+.page{
+    position:absolute;
+    width:100%;
+    height:100vh;
+    top:0;
+    left:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+    transition:1s ease;
+}
+
+.page.active{
+    left:0;
+}
+
+.page-content{
+    width:90%;
+    max-width:900px;
+    background:rgba(255,255,255,.85);
+    backdrop-filter:blur(12px);
+    padding:50px;
+    border-radius:25px;
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+    animation:fadeIn 1.2s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+h1{
+    text-align:center;
+    margin-bottom:25px;
+    font-family:'Cormorant Garamond',serif;
+    font-size:3rem;
+    color:#6d4c41;
+}
+
+p{
+    line-height:1.9;
+    margin-bottom:18px;
+    font-size:1.1rem;
+    color:#4e342e;
+}
+
+.page1{
+    background:linear-gradient(135deg,#fff8f3,#ffe8de);
+}
+
+.page2{
+    background:linear-gradient(135deg,#fffaf6,#f6ebe5);
+}
+
+.page3{
+    background:linear-gradient(135deg,#fff7f2,#fde8de);
+}
+
+.page4{
+    background:linear-gradient(135deg,#fff6f6,#ffeaea);
+}
+
+.navigation{
+    position:fixed;
+    bottom:30px;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    gap:15px;
+    z-index:1000;
+}
+
+.navigation button{
+    border:none;
+    background:#8d6e63;
+    color:white;
+    padding:12px 28px;
+    border-radius:50px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+.navigation button:hover{
+    background:#6d4c41;
+    transform:translateY(-3px);
+}
+
+audio{
+    position:fixed;
+    top:15px;
+    right:15px;
+    z-index:1000;
+}
+
+/* LAST PAGE */
+
+.flower-section{
+    text-align:center;
+}
+
+.flower-wrapper{
+    position:relative;
+    width:220px;
+    height:260px;
+    margin:0 auto 30px;
+}
+
+.quote-box{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+.quote-box blockquote{
+    font-size:1.6rem;
+    line-height:1.7;
+    font-family:'Cormorant Garamond',serif;
+    color:#5d4037;
+}
+
+.signature{
+    margin-top:15px;
+    color:#8d6e63;
+    font-weight:600;
+}
+
+</style>
+</head>
+
+<body>
+
+<audio controls autoplay loop>
+    <source src="music/music.mpeg" type="audio/mpeg">
+</audio>
+
+<!-- PAGE 1 -->
+
+<section class="page page1 active">
+
+<div class="page-content">
+
+<h1>A Message From My Heart</h1>
+
+<p>
+There are some things I wish I had said sooner and some moments I wish I could relive differently.
+This letter comes from the deepest part of my heart because I never want my silence to hide what I truly feel.
+</p>
+
+<p>
+I know I made mistakes.
+I know there were times when my actions, words, or even my lack of words hurt you.
+Looking back now, I understand those moments more clearly than ever before.
+</p>
+
+<p>
+This isn't a letter filled with excuses.
+It's a letter filled with honesty.
+A sincere apology for every tear, every doubt, and every moment when I failed to show you the care you deserved.
+</p>
+
+<p>
+If I could change those moments, I would.
+Not because I want to erase the past, but because I never wanted to be the reason for your pain.
+</p>
+
+</div>
+
+</section>
+
+<!-- PAGE 2 -->
+
+<section class="page page2">
+
+<div class="page-content">
+
+<h1>What I've Learned</h1>
+
+<p>
+Life has a strange way of teaching lessons through reflection.
+During this journey, I discovered parts of myself I had never fully understood before.
+</p>
+
+<p>
+I learned that love is more than beautiful memories.
+It's patience, understanding, communication, and showing up even during difficult moments.
+</p>
+
+<p>
+I learned how valuable your presence truly is.
+The smallest conversations, your smile, your laughter, and even ordinary moments became memories I treasure deeply.
+</p>
+
+<p>
+Most importantly, I learned that someone special deserves effort, honesty, and appreciation every single day.
+</p>
+
+</div>
+
+</section>
+
+<!-- PAGE 3 -->
+
+<section class="page page3">
+
+<div class="page-content">
+
+<h1>What My Heart Still Feels</h1>
+
+<p>There are countless things I could say about how much I love you, but no words ever seem enough.</p>
+<p>
+You are not just someone I care about; you are someone who changed my world in ways I never expected.
+Your smile brings me comfort, your happiness matters to me, and your presence makes even ordinary moments feel special.</p>
+<p> 
+I love the way you laugh, the way you care, and the way you make life brighter without even trying. 
+You have become a part of my thoughts, my dreams, and the future I imagine.</p>
+<p>
+No matter how difficult things become, one thing remains true: my heart still chooses you. 
+Not because you're perfect, but because every part of you means something precious to me.</p>
+<p>
+If I had to choose again, in every lifetime and in every version of my story, I would still choose you.
+
+I love you more deeply than I can ever fully express, and I will always cherish the place you hold in my heart.
+
+
+</div>
+
+</section>
+
+<!-- PAGE 4 -->
+
+<section class="page page4">
+
+<div class="page-content">
+
+<div class="flower-section">
+
+<h1>For You 🌸</h1>
+
+<div class="flower-wrapper">
+
+<!-- Animated Flower Added In Part 2 -->
+
+</div>
+
+<div class="quote-box">
+
+<blockquote>
+"Like flowers that bloom after every storm,
+some feelings remain beautiful no matter how much time passes.
+And if love is patient, then my heart will always cherish you."
+</blockquote>
+
+<div class="signature">
+With All My Heart ❤️
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="navigation">
+<button onclick="prevPage()">Previous</button>
+<button onclick="nextPage()">Next</button>
+</div>
+
+<style>
+
+/* ANIMATED FLOWER */
+.flower{
+    position:relative;
+    width:200px;
+    height:250px;
+    margin:auto;
+}
+
+.petal{
+    width:70px;
+    height:70px;
+    background:pink;
+    border-radius:50%;
+    position:absolute;
+}
+
+.p1{
+    top:20px;
+    left:65px;
+}
+
+.p2{
+    top:65px;
+    left:20px;
+}
+
+.p3{
+    top:65px;
+    left:110px;
+}
+
+.p4{
+    top:110px;
+    left:65px;
+}
+
+.center{
+    width:50px;
+    height:50px;
+    background:gold;
+    border-radius:50%;
+    position:absolute;
+    top:75px;
+    left:75px;
+    z-index:2;
+}
+
+.stem{
+    width:10px;
+    height:120px;
+    background:green;
+    position:absolute;
+    top:120px;
+    left:96px;
+}
+
+.leaf-left{
+    top:120px;
+    left:-28px;
+    transform:rotate(-35deg);
+}
+
+.leaf-right{
+    top:155px;
+    right:-28px;
+    transform:rotate(35deg);
+}
+
+@keyframes flowerFloat{
+    0%{
+        transform:translateX(-50%) translateY(0);
+    }
+    50%{
+        transform:translateX(-50%) translateY(-12px);
+    }
+    100%{
+        transform:translateX(-50%) translateY(0);
+    }
+}
+
+/* FALLING PETALS */
+
+.falling-petal{
+    position:fixed;
+    width:12px;
+    height:12px;
+    background:rgba(255,182,193,.7);
+    border-radius:50%;
+    top:-20px;
+    z-index:1;
+    animation:fall linear infinite;
+}
+
+@keyframes fall{
+    from{
+        transform:translateY(-10px);
+    }
+    to{
+        transform:translateY(110vh);
+    }
+}
+
+</style>
+
+<script>
+
+/* PAGE NAVIGATION */
+
+const pages = document.querySelectorAll('.page');
+const nav = document.querySelector('.navigation');
+
+let currentPage = 0;
+
+function showPage(index){
+
+    pages.forEach(page=>{
+        page.classList.remove('active');
+    });
+
+    pages[index].classList.add('active');
+
+    /* HIDE BUTTONS ON LAST PAGE */
+
+    if(index === pages.length - 1){
+        nav.style.display = "none";
+    }else{
+        nav.style.display = "flex";
+    }
+}
+
+function nextPage(){
+
+    if(currentPage < pages.length - 1){
+        currentPage++;
+        showPage(currentPage);
+    }
+}
+
+function prevPage(){
+
+    if(currentPage > 0){
+        currentPage--;
+        showPage(currentPage);
+    }
+}
+
+/* CREATE FLOWER */
+
+document.querySelector('.flower-wrapper').innerHTML = `
+<div class="flower">
+    <div class="petal p1"></div>
+    <div class="petal p2"></div>
+    <div class="petal p3"></div>
+    <div class="petal p4"></div>
+
+    <div class="center"></div>
+
+    <div class="stem"></div>
+</div>
+
+`;
+
+/* FALLING PETALS */
+
+for(let i=0;i<25;i++){
+
+    let petal = document.createElement('div');
+
+    petal.classList.add('falling-petal');
+
+    petal.style.left = Math.random()*100 + 'vw';
+
+    petal.style.animationDuration =
+    (6 + Math.random()*8) + 's';
+
+    petal.style.animationDelay =
+    Math.random()*5 + 's';
+
+    document.body.appendChild(petal);
+}
+
+</script>
+
+</body>
+</html>
